@@ -15,12 +15,14 @@ $ npm install prepare.css
 Example usage:
 ```css
 /* Base */
-@import "normalize.css";
+@import "normalize.css"; 
 @import "prepare.css";
 
 /* Components */
-@import "components/type.css";
+@import "components/site.css"; /* For setting initial font, background, and page layout styles */
+@import "components/type.css"; /* For displaying typography elements and user generated content */
+@import "components/button.css";
 
 /* Utilities */
-@import "utilities/link.css"
+@import "utilities/link.css"; /* Maybe an .u-link class for displaying styled links */
 ```
