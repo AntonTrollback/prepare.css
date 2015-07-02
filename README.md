@@ -19,10 +19,10 @@ Example usage:
 @import "prepare.css";
 
 /* Components */
-@import "components/site.css"; /* For setting initial font, background, and page layout styles */
-@import "components/type.css"; /* For displaying typography elements and user generated content */
+@import "components/site.css"; /* Setting base font, background, and site layout styles */
+@import "components/type.css"; /* For typography elements and user generated content */
 @import "components/button.css";
 
 /* Utilities */
-@import "utilities/link.css"; /* Maybe an .u-link class for displaying styled links */
+@import "utilities/link.css"; /* Maybe an `.u-link` class for displaying styled links */
 ```
