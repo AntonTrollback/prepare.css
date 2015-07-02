@@ -1,0 +1,104 @@
+/**
+ * A thin base layer on top of normalize.css preparing our CSS for an
+ * object-oriented environment.
+ */
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/**
+ * Remove the default spacing, border and font rules for appropriate elements.
+ */
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre,
+form {
+  margin: 0;
+  font: inherit;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Suppress the focus outline on links that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+
+[tabindex="-1"]:focus {
+  outline: none !important;
+}
+
+/**
+ * Normalize text color for disabled elements and input placeholders
+ */
+
+:disabled {
+  color: inherit;
+  opacity: 0.4;
+  -webkit-text-fill-color: currentColor;
+}
+
+::placeholder {
+  color: inherit;
+  opacity: 0.4;
+}
+
+/**
+ * Allow only vertical user resizing
+ */
+
+textarea {
+  resize: vertical;
+}

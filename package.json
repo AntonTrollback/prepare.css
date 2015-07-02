@@ -1,0 +1,21 @@
+{
+  "name": "prepare.css",
+  "version": "0.1.0",
+  "description": "Preparing our CSS for a object-oriented environment.",
+  "keywords": [
+    "css",
+    "prepare",
+    "base"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antontrollback/prepare.css.git"
+  },
+  "author": "Anton Trollbäck",
+  "license": "MIT",
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "index.css"
+  ]
+}
